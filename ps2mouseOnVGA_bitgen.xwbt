@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\heren\Desktop\ps2mouseOnVGA\ps2mouseOnVGA.ncd
+OUTFILE=C:\Users\heren\Desktop\ps2mouseOnVGA\ps2mouseOnVGA.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\heren\Desktop\ps2mouseOnVGA
+LICENSE=WebPack
+USER_INFO=210952995_0_0_713

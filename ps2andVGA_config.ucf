@@ -1,0 +1,25 @@
+# System Settings
+NET "clock" 	LOC = "C9";
+NET "clock" 	TNM_NET = "clock";
+NET "reset"  	LOC = "K17";
+
+# PS2 Pinouts
+NET "ps2clock" LOC = "G14" | DRIVE = 8 | SLEW = SLOW; 
+NET "ps2data" 	LOC = "G13" | DRIVE = 8 | SLEW = SLOW;
+
+# VGA Pinouts
+NET "rgb<2>"  	LOC = "H14" | DRIVE = 8 | SLEW = FAST;
+NET "rgb<1>"  	LOC = "H15" | DRIVE = 8 | SLEW = FAST;
+NET "rgb<0>"  	LOC = "G15" | DRIVE = 8 | SLEW = FAST;
+NET "vsync"   	LOC = "F14" | DRIVE = 8 | SLEW = FAST;
+NET "hsync"   	LOC = "F15" | DRIVE = 8 | SLEW = FAST; 
+
+# Led Pinouts
+NET "LED<7>" 	LOC = "F9" ;
+NET "LED<6>" 	LOC = "E9" ;
+NET "LED<5>" 	LOC = "D11";
+NET "LED<4>" 	LOC = "C11";
+NET "LED<3>" 	LOC = "F11";
+NET "LED<2>" 	LOC = "E11";
+NET "LED<1>" 	LOC = "E12";
+NET "LED<0>" 	LOC = "F12";
